@@ -1,0 +1,5 @@
+english = int(input())
+english_rol = set(input().split())
+french = int(input())
+french_rol = set(input().split())
+print(len(french_rol.union(english_rol)))

@@ -1,3 +1,5 @@
+import math
+
 class Complex(object):
     def __init__(self, real, imaginary):
         self.real = real
